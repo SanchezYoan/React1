@@ -1,13 +1,13 @@
 import React from "react";
 import { LoremIpsum } from "react-lorem-ipsum";
 import Navigation from "../components/Navigation";
+import Logo from "../components/Logo";
 
 const About = () => {
   return (
     <div>
-      {/* <Logo /> */}
+      <Logo />
       <Navigation />
-
       <h1>A propos</h1>
       <br />
       <p>
